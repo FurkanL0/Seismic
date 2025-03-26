@@ -92,9 +92,6 @@ bash script/deploy.sh
 
 - Claim Faucet : https://faucet-2.seismicdev.net/
 
-![image](https://github.com/user-attachments/assets/c238e433-0216-4a44-aaeb-66a265145953)
-
-
 - Wait for faucet - 30-45 second.
 - Enter.
 
@@ -132,10 +129,16 @@ bash script/transact.sh
 
 - Enter.
 
+![image](https://github.com/user-attachments/assets/e934fba3-0833-41ca-be9c-836a5b4dfb21)
+
+
 - Faucet : https://faucet-2.seismicdev.net/
 ![image](https://github.com/user-attachments/assets/66d0a4c9-b889-4c08-8f8d-789f2674e24f)
 
 - Wait for faucet - 30-45 second.
+
+![image](https://github.com/user-attachments/assets/6e1092a5-9b74-48e1-9759-2d5e849b150d)
+
 
 
 ### Chain İnfo ; 
