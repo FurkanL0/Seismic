@@ -15,6 +15,18 @@
 | **PQ**      | [Link](https://pq.hosting/?from=627713)                  | Cheap / Crypto Payment |
 | **NetCup**          | [Link](https://www.netcup.com/en/?ref=261820) | Cheap / Paypal |
 
+
+## 1. Server Update : 
+
+```bash
+sudo apt update -y && sudo apt upgrade -y
+```
+## 2. Install Packages:
+
+```bash
+sudo apt install htop ca-certificates zlib1g-dev libncurses5-dev libgdbm-dev libnss3-dev tmux iptables curl nvme-cli git wget make jq libleveldb-dev build-essential pkg-config ncdu tar clang bsdmainutils lsb-release libssl-dev libreadline-dev libffi-dev jq gcc screen unzip lz4 -y
+```
+
 ## Rust
 
 ```bash
@@ -58,6 +70,9 @@ sfoundryup
 git clone --recurse-submodules https://github.com/SeismicSystems/try-devnet.git
 ```
 
+![image](https://github.com/user-attachments/assets/9d4e954c-4833-49c0-8fbf-6b1272990f99)
+
+
 ```bash
 cd try-devnet/packages/contract/
 ```
@@ -67,12 +82,19 @@ cd try-devnet/packages/contract/
 ```bash
 bash script/deploy.sh
 ```
+![image](https://github.com/user-attachments/assets/620a8036-3fb4-4f47-85c2-888875bd035b)
+
 
 - Enter.
 
-- Claim Faucet : https://faucet-2.seismicdev.net/
-- Wait for faucet - 30-45 second.
+![image](https://github.com/user-attachments/assets/95600ebd-7114-4f89-af04-cbc9244f1beb)
 
+
+- Claim Faucet : https://faucet-2.seismicdev.net/
+
+![image](https://github.com/user-attachments/assets/050070fa-80ba-4a65-aaaa-ea05aa281ba9)
+
+- Wait for faucet - 30-45 second.
 - Enter.
 
 
@@ -102,6 +124,8 @@ bash script/transact.sh
 - Enter.
 
 - Faucet : https://faucet-2.seismicdev.net/
+![image](https://github.com/user-attachments/assets/66d0a4c9-b889-4c08-8f8d-789f2674e24f)
+
 - Wait for faucet - 30-45 second.
 
 
