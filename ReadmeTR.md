@@ -9,6 +9,10 @@
 | **Storage**      | 25+ GB SDD                   |
 | **Network**      | 100 Mbps (1 Gbps+ recommended) |
 
+
+- Sunucu özelliklerine göre değişiklikler gösterebiliyor - indirmeler  uzayabiliyor . 16 RAM'li sunucuda hızlıca halletti.
+
+
 | Server Provider        | Link              | Features |
 |------------------|----------------------------|----------------------------|
 | **Contabo**          | [Link](https://www.dpbolvw.net/click-101330552-12454592)                     | Cheap / Paypal  |
