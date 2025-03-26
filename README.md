@@ -92,11 +92,15 @@ bash script/deploy.sh
 
 - Claim Faucet : https://faucet-2.seismicdev.net/
 
-![image](https://github.com/user-attachments/assets/050070fa-80ba-4a65-aaaa-ea05aa281ba9)
+![image](https://github.com/user-attachments/assets/c238e433-0216-4a44-aaeb-66a265145953)
+
 
 - Wait for faucet - 30-45 second.
 - Enter.
 
+![image](https://github.com/user-attachments/assets/41fc1a6a-364e-48cd-9c0c-b58f9f5eadd0)
+
+- Nice
 
 ## 7. Intract With Deploy : 
 
@@ -117,9 +121,14 @@ source /root/.bashrc
 cd try-devnet/packages/cli/
 bun install
 ```
+![image](https://github.com/user-attachments/assets/25751690-c254-49a2-ab7f-e75caa0d2e59)
+
+
 ```bash
 bash script/transact.sh
 ```
+![image](https://github.com/user-attachments/assets/ede8fd0e-29c2-4942-bbbf-9211087c6557)
+
 
 - Enter.
 
