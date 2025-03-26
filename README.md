@@ -5,8 +5,8 @@
 | X        | Minimum              |
 |------------------|----------------------------|
 | **CPU**          | 2 |
-| **RAM**          | 8 GB                     |
-| **Storage**      | 256 GB SDD                   |
+| **RAM**          | 4 GB                     |
+| **Storage**      | 25+ GB SDD                   |
 | **Network**      | 100 Mbps (1 Gbps+ recommended) |
 
 | Server Provider        | Link              | Features |
