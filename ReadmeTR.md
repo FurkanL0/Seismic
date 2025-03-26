@@ -2,20 +2,32 @@
 
 ![image](https://github.com/user-attachments/assets/794b1678-110c-4bf5-8514-e5d8341ce84c)
 
-| Özellikler        | Minimum              |
+| X        | Minimum              |
 |------------------|----------------------------|
 | **CPU**          | 2 |
 | **RAM**          | 4 GB                     |
-| **Storage**      | x GB SDD                   |
+| **Storage**      | 256 GB SDD                   |
 | **Network**      | 100 Mbps (1 Gbps+ recommended) |
 
 | Server Provider        | Link              | Features |
 |------------------|----------------------------|----------------------------|
-| **Contabo**          | [Link](https://www.dpbolvw.net/click-101330552-12454592)                     | Ucuz  |
-| **PQ**      | [Link](https://pq.hosting/?from=627713)                  | Ucuz |
-| **NetCup**          | [Link](https://www.netcup.com/en/?ref=261820) | Ucuz |
+| **Contabo**          | [Link](https://www.dpbolvw.net/click-101330552-12454592)                     | Cheap / Paypal  |
+| **PQ**      | [Link](https://pq.hosting/?from=627713)                  | Cheap / Crypto Payment |
+| **NetCup**          | [Link](https://www.netcup.com/en/?ref=261820) | Cheap / Paypal |
 
-## Rust İndirelim
+
+## 1. Serveri Güncelliyoruz : 
+
+```bash
+sudo apt update -y && sudo apt upgrade -y
+```
+## 2. Paketleri İndiriyoruz:
+
+```bash
+sudo apt install htop ca-certificates zlib1g-dev libncurses5-dev libgdbm-dev libnss3-dev tmux iptables curl nvme-cli git wget make jq libleveldb-dev build-essential pkg-config ncdu tar clang bsdmainutils lsb-release libssl-dev libreadline-dev libffi-dev jq gcc screen file unzip lz4 -y
+```
+
+## Rust İndiriyoruz
 
 ```bash
 curl https://sh.rustup.rs -sSf | sh
@@ -29,7 +41,7 @@ curl https://sh.rustup.rs -sSf | sh
 . "$HOME/.cargo/env"
 ```
 
-## Sfoundryup İndiriyoruz.
+## Sfoundryup İndiriyoruz
 
 ```bash
 curl -L \
@@ -50,34 +62,44 @@ sfoundryup
 
 ![image](https://github.com/user-attachments/assets/ee61d6e6-2732-46da-b5cf-a85891e597fc)
 
-- İnmesi gerçekten uzun sürüyor haberiniz olsun.
+- Wait download. 
 
-## Repoyu İndirelim : 
+## Seismic Reposunu İndiriyoruz : 
 
 ```bash
 git clone --recurse-submodules https://github.com/SeismicSystems/try-devnet.git
 ```
+
+![image](https://github.com/user-attachments/assets/9d4e954c-4833-49c0-8fbf-6b1272990f99)
+
 
 ```bash
 cd try-devnet/packages/contract/
 ```
 
 
-## Deploy İşlemleri : 
-
+## Deploy Aşaması  : 
 ```bash
 bash script/deploy.sh
 ```
-
-- Enter.
-
-- Faucet alıyoruz. : https://faucet-2.seismicdev.net/
-- Faucetin gelmesini bekliyoruz - cüzdana geçsin 30-45 sn bekleyin.
-
-- Enter'e bas.
+![image](https://github.com/user-attachments/assets/620a8036-3fb4-4f47-85c2-888875bd035b)
 
 
-## 7. Deploy İle Etkileşim : 
+- Enter'a bas onayla hocam.
+
+![image](https://github.com/user-attachments/assets/95600ebd-7114-4f89-af04-cbc9244f1beb)
+
+
+- Faucet Linki - Cüzdana faucet al : https://faucet-2.seismicdev.net/
+
+- Hop hemen diğer aşamaya geçme bekle faucet gelsin. 30-40 sn bekle
+- Bekledikten sonra enter'e bas hocam.
+
+![image](https://github.com/user-attachments/assets/41fc1a6a-364e-48cd-9c0c-b58f9f5eadd0)
+
+- Tamamdır - mis deployladı. Bunu kaydet discord devnet kanalına atacağız.
+
+## 7. Deploy ile etkileşim : 
 
 - Bun'u indiriyoruz.
 
@@ -90,23 +112,39 @@ curl -fsSL https://bun.sh/install | bash
 source /root/.bashrc
 ```
 
-- Run ; 
+- Çalıştırıyoruz ; 
 
 ```bash
 cd try-devnet/packages/cli/
 bun install
 ```
+![image](https://github.com/user-attachments/assets/25751690-c254-49a2-ab7f-e75caa0d2e59)
+
+
 ```bash
 bash script/transact.sh
 ```
-
-- Enter.
-
-- Faucet Alıyoruz : https://faucet-2.seismicdev.net/
-- Hemen aldık diğer aşama yapma hocam bekle 30-40 sn cüzdana geçsin faucet.
+![image](https://github.com/user-attachments/assets/ede8fd0e-29c2-4942-bbbf-9211087c6557)
 
 
-### Ağ Bilgileri ; 
+- Enter'e basıyoruz.
+
+![image](https://github.com/user-attachments/assets/e934fba3-0833-41ca-be9c-836a5b4dfb21)
+
+
+- Faucet Linki : https://faucet-2.seismicdev.net/
+
+![image](https://github.com/user-attachments/assets/66d0a4c9-b889-4c08-8f8d-789f2674e24f)
+
+- Yine fauceti alıyoruz - ve gelmesini bekliyoruz- 30- 40 sn bekliyoruz.
+- Enter'a basın
+
+![image](https://github.com/user-attachments/assets/6e1092a5-9b74-48e1-9759-2d5e849b150d)
+
+- Mis gibi oldu. 
+- Diğer kaydettiğimiz resim ile discord devnet kanalına atmayı ve TR kanalına gelmeyi unutmayın .
+
+### Chain İnfo ; 
 ```bash
 Network Name: Seismic devnet
 
