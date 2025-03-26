@@ -37,7 +37,7 @@ sudo apt install htop ca-certificates zlib1g-dev libncurses5-dev libgdbm-dev lib
 curl https://sh.rustup.rs -sSf | sh
 ```
 
-- 1 
+- 1  yazıp enterleyin.
 
 ![image](https://github.com/user-attachments/assets/2a60a5a0-d5f4-4e1a-9b7e-1189d3719861)
 
