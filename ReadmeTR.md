@@ -62,7 +62,7 @@ sfoundryup
 
 ![image](https://github.com/user-attachments/assets/ee61d6e6-2732-46da-b5cf-a85891e597fc)
 
-- Wait download. 
+- İnmesini bekliyoruz bi 5-10 dk sürer dostlar.
 
 ## Seismic Reposunu İndiriyoruz : 
 
