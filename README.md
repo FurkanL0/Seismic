@@ -139,7 +139,7 @@ bash script/transact.sh
 
 ![image](https://github.com/user-attachments/assets/6e1092a5-9b74-48e1-9759-2d5e849b150d)
 
-
+- Compeleted.
 
 ### Chain İnfo ; 
 ```bash
