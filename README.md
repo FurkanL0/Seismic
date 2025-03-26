@@ -76,8 +76,6 @@ bash script/deploy.sh
 - Enter.
 
 
-- If you want to stop : 'gaianet stop'
-
 ## 7. Intract With Deploy : 
 
 - Install bun.
